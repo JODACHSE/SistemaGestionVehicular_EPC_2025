@@ -1,61 +1,129 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="public/assets/HolaEpc.png" width="400" alt="Logo HolaEpc">
+  </a>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://laravel.com" target="_blank"><img src="https://img.shields.io/badge/framework-laravel-red" alt="Laravel Framework"></a>
+  <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Sistema de Gestión Vehicular 🚗📋
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Un sistema automatizado de control y gestión de vehículos en tiempo real desarrollado para optimizar los procesos de Recursos Humanos (RRHH). Esta plataforma reemplaza por completo el flujo de trabajo obsoleto basado en formularios de Google Forms y el volcado manual de información a hojas de cálculo de Excel, eliminando la carga administrativa extra y permitiendo una distribución eficiente del tiempo del personal.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Propósito del Proyecto
 
-## Learning Laravel
+En muchas organizaciones, el control de los vehículos corporativos se realiza mediante registros manuales o formularios aislados, lo que genera retrasos, pérdida de información y un esfuerzo duplicado al centralizar los datos en Excel. 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Este **Sistema de Gestión Vehicular** centraliza la operación en tiempo real, garantizando que RRHH cuente con datos precisos sobre la disponibilidad de la flota, el estado de los vehículos antes de su uso y la asignación del recurso humano sin procesos burocráticos ni cargas de trabajo adicionales.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## ✨ Características Principales
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* **Gestión en Tiempo Real:** Visualización y actualización instantánea de los datos sin necesidad de sincronizaciones manuales.
+* **Inventario de Vehículos:** Control centralizado de toda la flota automotriz de la organización (marca, modelo, placas, estado actual).
+* **Inspección Pre-Uso (Checklist):** Actualización obligatoria del estado del vehículo antes de cada uso, asegurando la trazabilidad de fallas, kilometraje y condiciones de entrega.
+* **Gestión de Recurso Humano:** Control y asignación de conductores, historial de usos y responsabilidades asociadas a cada vehículo.
+* **Dashboard Automatizado:** Panel de control intuitivo para RRHH que elimina la dependencia de archivos Excel externos.
 
-## Laravel Sponsors
+## 🛠️ Tecnologías Utilizadas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+El proyecto se construyó utilizando un stack moderno, robusto y de rápido despliegue:
 
-### Premium Partners
+* **Backend:** [Laravel](https://laravel.com/) (Framework PHP) - Arquitectura MVC, migraciones de base de datos y validación robusta.
+* **Lenguaje principal:** PHP
+* **Frontend:** [Bootstrap](https://getbootstrap.com/) & **SCSS** - Diseño adaptivo (Mobile-First) y estilos modulares estructurados.
+* **Interactividad:** JavaScript (JS) para actualizaciones dinámicas en la interfaz.
+* **Arquitectura de UI:** Componentes y componentes parciales reutilizables de Blade para mantener un código limpio y mantenible (DRY - *Don't Repeat Yourself*).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+## 📋 Requisitos del Sistema
 
-## Contributing
+Antes de instalar el proyecto, asegúrate de cumplir con los siguientes requisitos:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* PHP >= 8.1
+* Composer
+* MySQL o PostgreSQL
+* Node.js & NPM
 
-## Code of Conduct
+## 🔧 Instalación y Configuración
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Sigue estos pasos para levantar el proyecto en tu entorno local:
 
-## Security Vulnerabilities
+1. **Clonar el repositorio:**
+	```
+	git clone https://github.com/JODACHSE/SistemaGestionVehicular_EPC_2025.git
+    cd SistemaGestionVehicular_EPC_2025
+	```
+	
+2.  **Instalar dependencias de PHP:**
+    ```
+    composer install
+    ```
+    
+3.  **Instalar dependencias de Frontend:**    
+    ```
+    npm install && npm run dev
+    ```
+    
+5.  **Configurar el archivo de entorno:** Copia el archivo de ejemplo y configura tus credenciales de base de datos:
+    ```
+    cp .env.example .env
+    ```
+    
+    Abre el archivo `.env` y edita las siguientes líneas con la configuración de tu servidor local:
+    
+    Fragmento de código
+    
+    ```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=sistema_vehicular
+    DB_USERNAME=tu_usuario
+    DB_PASSWORD=tu_contrasena
+    ```
+    
+6.  **Generar la clave de la aplicación:**
+    ```
+    php artisan key:generate
+    ```
+    
+7.  **Ejecutar las migraciones (y seeders si aplican):**
+    ```
+    php artisan migrate
+    ```
+    
+8.  **Iniciar el servidor de desarrollo:**
+    ```
+    php artisan serve
+    ```
+    Visita `http://127.0.0.1:8000` en tu navegador.
+    
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 📐 Estructura de Componentes UI
 
-## License
+El frontend está altamente modularizado a través del motor de plantillas Blade de Laravel:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   `resources/views/components/`: Componentes globales reutilizables (botones personalizados, alertas, tarjetas de estado).
+    
+-   `resources/views/partials/`: Secciones parciales de la página (Navbar, Sidebar, Footer) para evitar la duplicación de código en el diseño base.
+    
+
+## 👥 Contribuciones
+
+Si deseas mejorar este sistema, siéntete libre de abrir un _Pull Request_ o reportar un _Issue_.
+
+1.  Haz un Fork del proyecto.
+    
+2.  Crea una rama con tu nueva característica (`git checkout -b feature/NuevaCaracteristica`).
+    
+3.  Haz un commit de tus cambios (`git commit -am 'Añade una nueva característica'`).
+    
+4.  Empuja la rama (`git push origin feature/NuevaCaracteristica`).
+    
+5.  Abre un Pull Request.
+
+ ---
+Desarrollado como solución tecnológica eficiente para la optimización de procesos logísticos y de RRHH.
